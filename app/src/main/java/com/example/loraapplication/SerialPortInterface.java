@@ -180,7 +180,7 @@ public class SerialPortInterface extends AppCompatActivity {
                          double rh = Integer.parseInt(bytesToHexFun1(buffer8),16)*100.0/65535.0;
                             String.format("%.1f", rh) ;
                             String.format("%.1f", template);
-                          return  ;
+                          return  "123";
 
 
 

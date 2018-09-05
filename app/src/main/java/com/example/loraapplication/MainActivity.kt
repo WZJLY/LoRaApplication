@@ -22,7 +22,7 @@ import android.util.Log
              do {
                  try {
                      var str = spi!!.readTHData()
-                     if( str[0]!="")
+                     if( str!="")
                      {
                          val msg = Message()
                          msg.what = 3  //消息(一个整型值)
